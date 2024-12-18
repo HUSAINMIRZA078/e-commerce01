@@ -221,7 +221,7 @@ ul.tab button:hover {
     height: 100%;
     object-fit: cover;
   }
-  #detalis {
+  #detalis,#women-detalis {
     position: fixed;
     top: 130px;
     background: white;
@@ -241,7 +241,7 @@ ul.tab button:hover {
     text-align: start;
     padding: 25px 0px;
 }
-#detbtn i {
+#detbtn i,#women-detalis i {
     position: absolute;
     top: 15px;
     right: 15px;
