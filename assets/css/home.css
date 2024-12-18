@@ -371,7 +371,7 @@ ul.tab button:hover {
     .top-header-in a img {
         width: 80%;
     }
-    #detalis {
+    #detalis,#women-detalis {
         position: fixed;
         top: 130px;
         background: white;
