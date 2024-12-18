@@ -371,6 +371,18 @@ ul.tab button:hover {
     .top-header-in a img {
         width: 80%;
     }
+    #detalis {
+        position: fixed;
+        top: 130px;
+        background: white;
+        width: 70%;
+        padding: 80px 10px;
+        left: 10px;
+        box-shadow: 0px 0px 18px 2px rgba(0,0,0,0.5);
+        border-radius: 5px;
+        display: none;
+        z-index: 999;
+    }
     
     
 }
