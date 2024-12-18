@@ -1,0 +1,148 @@
+*{
+    font-family: Quicksand,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.main-img {
+    background-image: url(../images/login.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.login {
+    position: absolute;
+    left: 280px;
+    top: 190px;
+}
+.login h2 {
+    color: #253d4e;
+    font-size: 33px;
+    font-weight: 800;
+}
+.login p {
+    color: #7e7e7e;
+    font-size: 13px;
+    font-weight: 700;
+}
+span.acc {
+    color: #3bb77e;
+    font-size: 16px;
+}
+.inuput {
+    background: white;
+    margin: 10px 0px;
+    padding: 10px 24px;
+    border-radius: 18px;
+    border: 1px solid #656363;
+    display: flex;
+    align-items: center;
+}
+input {
+    border: none;
+    outline: none;
+    padding: 0px 7px;
+    font-size: 14px !important;
+    background: none;
+}
+.user {
+    color: grey;
+    font-size: 12px;
+}
+.check {
+    background: #3bb780;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 50%;
+    font-size: 12px;
+    margin-left: 20px;
+}
+span.eye {
+    margin-left: 20px;
+    font-size: 13px;
+    color: gray;
+    display: flex;
+}
+#hide{
+    display: none;
+}
+.forgt-text {
+    text-align: end;
+    color: red;
+    padding: 0px 8px;
+}
+.forgt-text h3 {
+    font-size: 15px;
+    font-weight: 600;
+}
+form button {
+    background: #0606a6;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 15px;
+    font-size: 14px;
+}
+.othar-login h3 {
+    margin: 10px 0px;
+    color: red;
+    font-size: 18px;
+    font-weight: 700;
+}
+.fa-facebook {
+    background: blue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin: 0px 8px;
+}
+.fa-google-plus-g {
+    background: red;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin: 0px 8px;
+}
+.fa-twitter {
+    background: skyblue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin: 0px 8px;
+}
+@media (min-width:250px) and (max-width:767px) {
+    .login {
+        position: unset;
+        left: 280px;
+        top: 190px;
+        padding: 40px 10px;
+        text-align: center;
+    }
+    .inuput {
+        background: white;
+        margin: 10px 0px;
+        padding: 10px 8px;
+        border-radius: 18px;
+        border: 1px solid #656363;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    input {
+        border: none;
+        outline: none;
+        padding: 0px 2px;
+        font-size: 14px !important;
+        background: none;
+    }
+    
+}
