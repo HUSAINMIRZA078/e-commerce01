@@ -127,6 +127,16 @@
             picopandata.style.display = "none"
         }
 
+        function Womenimg(){
+            picopandata = document.getElementById("women-detalis")
+            picopandata.style.display = "block"
+        }
+
+        function Womenimgclose(){
+            picopandata = document.getElementById("women-detalis")
+            picopandata.style.display = "none"
+        }
+
         var swiper = new Swiper(".mySwiper", {
             navigation: {
               nextEl: ".swiper-button-next",
