@@ -144,5 +144,13 @@ form button {
         font-size: 14px !important;
         background: none;
     }
+    input {
+        border: none;
+        outline: none;
+        padding: 0px 2px;
+        font-size: 14px !important;
+        background: none;
+        width: 100%;
+    }
     
 }
