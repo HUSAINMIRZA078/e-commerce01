@@ -80,14 +80,12 @@
             userdata = document.getElementById("name").value
             passdata = document.getElementById("gta").value
 
-            username = "husain"
-            password = 3421
+            
 
-            if(userdata==username && passdata==password){
+            if(userdata==="husain" && passdata==3421){
                alert("login successfully")
-               
-               document.write(`<img src="https://i.gifer.com/origin/8a/8a47f769c400b0b7d81a8f6f8e09a44a_w200.gif" style="width:100%;height:100vh;">`)
-               setTimeout(()=>{
+               localStorage.setItem("name" , userdata)
+                setTimeout(()=>{
                    window.location.href="./home.html"
                },3000)
             }
