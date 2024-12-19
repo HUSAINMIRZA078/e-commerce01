@@ -143,4 +143,24 @@
               prevEl: ".swiper-button-prev",
             },
             loop:true,
-          });       
+          }); 
+          
+          btndata = document.getElementById("btnvalue")
+          userdata = localStorage.getItem("name")
+
+          mainbodydata = document.getElementById("main-body")
+          if(userdata){
+            btndata.innerHTML = `welcome ${userdata}`
+          }
+          else{
+            mainbodydata.style.display = "none"
+          }
+
+          function Logout(){
+            localStorage.removeItem("name")
+            alert("logout successfulyy....")
+
+            setTimeout(()=>{
+               window.location.href= "./index.html"
+            },3000)
+          }
